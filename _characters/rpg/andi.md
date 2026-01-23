@@ -1,9 +1,11 @@
 ---
 layout: article
-name: Andi Miler
 title: Andrea 'Andi' Miller
+description: Character page for Andi Miller, a genius inventor from a small town in Evereth. With her whip and mechanical hand, Andi aims to forge a destiny all her own.
+
+name: Andi Miler
 category: rpg
-permalink: /profile/andi.html
+permalink: /profile/andi
 thumbnail: /assets/gallery/andi/Andi_comm.thumb.webp
 toc: true
 ---

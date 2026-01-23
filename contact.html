@@ -1,7 +1,11 @@
 ---
 layout: default
 title: Contact Me
-permalink: /contact.html
+description: Use this form to send an email to Chion. 
+
+permalink: /contact
+thumbnail: "/assets/gallery/frontpage/emoji_ilyana_thinking.max.webp"
+toc: true
 ---
 
 <h1>Contact Chion</h1>
@@ -16,7 +20,7 @@ permalink: /contact.html
   I will respond to your message as soon as I can!
 {% endcapture %}
 
-  {{captured_markdown | markdownify}}
+{{captured_markdown | markdownify}}
 
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 

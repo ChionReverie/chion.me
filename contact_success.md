@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: contact_success.html
+sitemap: false
 ---
 
 <div class="text-center" markdown=1>

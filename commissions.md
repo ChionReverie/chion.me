@@ -1,8 +1,11 @@
 ---
 layout: article
 title: Commission Info
+description: List of art options available for commission from Chion Reverie, as well as instructions on how to order.
+
+permalink: /commissions
+thumbnail: "/assets/gallery/commission/critter/cat.thumb.webp"
 toc: true
-permalink: /commissions.html
 ---
 
 <p data-insert="commission-status" style="font-size:125%; height: 2.5rem; text-align: center;">
@@ -35,25 +38,10 @@ Cute emojis for your discord server!
 
 ---
 
-<!-- <div class="list_list">
-<div class="list_list_entry" markdown="1">
-<h4 class="list_heading">I will draw</h4>
-* Plushies
-* Critters with silly proportions
-* Chibi Emojis
-</div>
-
-<div class="list_list_entry" markdown="1">
-<h4 class="list_heading">I will not draw</h4>
-* Gore
-* Characters with realistic proportions
-</div>
-</div> -->
-
 ## How to Order
 To order from me, please contact me via my email form or via Discord (@chionreverie) if we share a mutual server or friends.
 
-[Message Me!](/contact.html){:.call-to-action.btn}
+[Message Me!](/contact){:.call-to-action.btn}
 
 In your message, provide details of the commission, including:
   * The type of piece you want made

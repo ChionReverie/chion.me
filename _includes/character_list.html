@@ -15,7 +15,7 @@
 {% for character in my_characters %}
     <a href="{{character.url}}" class="gallery_entry">
         <figure>
-            <img src="{{character.thumbnail | default: "/assets/generic.webp"}}" />
+            <img src="{{character.thumbnail | default: '/assets/generic.webp'}}" />
             <figcaption>{{character.name}}</figcaption>
         </figure>
     </a>

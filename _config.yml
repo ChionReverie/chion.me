@@ -1,6 +1,6 @@
 url: "https://chion.me" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Chion.me" # the name of your site, e.g. ACME Corp.
+title: "Chion Reverie" # the name of your site, e.g. ACME Corp.
 repository: "https://github.com/ChionReverie/chion.me"
 
 collections:
@@ -9,6 +9,7 @@ collections:
 
 plugins:
   - jekyll-toc
+  - jekyll-sitemap
 
 toc:
   max_level: 3

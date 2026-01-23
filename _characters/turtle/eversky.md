@@ -1,9 +1,11 @@
 ---
 layout: article
-name: Ilyana Eversky
 title: Ilyana Eversky
+description: Character page for Ilyana Eversky, a Kaldorei civilian, Ilyana makes a living as a professional plush-doll-maker and as waitstaff for the Starlight Rose.
+
+name: Ilyana Eversky
 category: turtle
-permalink: /profile/eversky.html
+permalink: /profile/eversky
 thumbnail: "/assets/gallery/eversky/portrait_celryn.thumb.webp"
 toc: true
 ---
@@ -38,7 +40,6 @@ Does not carry a weapon or any kind of armor. Ilyana is a civilian by firm choic
 Wears loose robes and dresses over tighter shorts and undershirt, which has the effect of making her figure appear more modest.
 
 ## Gallery
-<!-- Art/screenshot gallery -->
 
 {% include gallery.html gallery='eversky' %}
 
@@ -65,7 +66,7 @@ Contact Ilyana by mail, or find her in Stormwind Park or Darnassus. Prices are u
 **OOC Notes**   
 When buying a plush from Ilyana, you don't have to pay actual game currency. I'm happy to roleplay the act of silver changing hands without being paid in-game =p 
 
-If you would like art of a doll Ilyana makes, check out my (Chion's) [commission page](/commissions.html). But please don't feel obligated to get art if you don't want or cannot afford it.
+If you would like art of a doll Ilyana makes, check out my (Chion's) [commission page](/commissions). But please don't feel obligated to get art if you don't want or cannot afford it.
 
 </div>
 
