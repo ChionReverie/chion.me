@@ -55,7 +55,7 @@ toc: true
   </div>
 
   <!-- Cloudflare Turnstile -->
-  <div class="cf-turnstile" data-sitekey="{{site.turnstile_key}}" data-callback="enableSubmit"></div>
+  <div class="cf-turnstile" data-sitekey="{{site.env.turnstile}}" data-callback="enableSubmit"></div>
 
   <button type="submit" id="submit-button" class="btn call-to-action" disabled>Send!</button>
 </form>
