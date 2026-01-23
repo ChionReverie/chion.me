@@ -27,9 +27,9 @@ I have created profiles for some of my roleplay characters. Click on a thumbnail
 
 {% include gallery.html gallery='frontpage' nohint=true %}
 
-[See my options?](/commissions.html){:.call-to-action.btn}
+[See my options?](/commissions){:.call-to-action.btn}
 
 ---
 
-[Send me a message?](/contact.html)
+[Send me a message?](/contact)
 {:style="text-align: center;"}
