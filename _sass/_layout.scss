@@ -51,6 +51,7 @@ body {
 }
 
 .page-main {
+  position: relative;
   flex-grow: 1;
   overflow-y: scroll;
   padding: vars.$site-padding;

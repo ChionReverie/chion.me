@@ -3,7 +3,7 @@ layout: article
 title: Andrea 'Andi' Miller
 description: Character page for Andi Miller, a genius inventor from a small town in Evereth. With her whip and mechanical hand, Andi aims to forge a destiny all her own.
 
-name: Andi Miler
+name: Andi Miller
 category: rpg
 permalink: /profile/andi
 thumbnail: /assets/gallery/andi/Andi_comm.thumb.webp
@@ -110,7 +110,7 @@ She packed up her bags, bid farewell to the men who raised her, and made her way
 
 ## Relationships
 
-### Vargu & Jaydenm Miler - Adoptive Fathers
+### Vargu & Jaydenm Miller - Adoptive Fathers
 
 Vargu is an Orcish smith originally from an outlander tribe, who once manufactured weapons of war. Nowadays, he just wants to live in peace, and crafts tools for the people of Melaney.
 

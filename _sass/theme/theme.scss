@@ -1,0 +1,45 @@
+@mixin theme-dark {
+  --main-bg: #02020A;
+  --text-color: #E1E2EF;
+  --link-color: #D09494;
+  
+  --sidebar-bg: #0b0b1e;
+  --sidebar-link-color: #B497D6;
+  --sidebar-link-color-active: rgb(101, 69, 190);
+  --modal-bg: var(--sidebar-bg);
+  --modal-border-color: var(--main-bg);
+
+  --action-color: #8269d2;
+}
+
+@mixin theme-light {
+  --main-bg: #ccccda;
+  --text-color: #020423;
+  --link-color: #550606;
+  
+  --sidebar-bg:  #9e8db0;
+  --sidebar-link-color: #0b0b1e;
+  --sidebar-link-color-active: #712d62;
+  --modal-bg: var(--sidebar-bg);
+  --modal-border-color: var(--main-bg);
+
+  --action-color: #5941b7; 
+}
+
+:root {
+  @media (prefers-color-scheme: dark) {
+    @include theme-dark;
+  }
+
+  @media (prefers-color-scheme: light) {
+    @include theme-light;
+  }
+}
+
+:root:has(.theme-switcher input[name="theme"][value="eversky"]:checked) {
+  @include theme-light;
+}
+
+:root:has(.theme-switcher input[name="theme"][value="miller"]:checked) {
+  @include theme-dark;
+}

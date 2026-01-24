@@ -4,6 +4,7 @@ layout: base
 <div class="page-container">
     {% include sidebar.html %}
     <main class="page-main" data-bs-spy="scroll" data-bs-target="#toc">
+        {% include theme-switcher.html %}
         <div class="character-wrapper">
             <h1>{{page.title}}</h1>
             {{ content }}
