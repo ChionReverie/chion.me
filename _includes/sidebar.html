@@ -15,11 +15,6 @@
             <li>
                 <a href="{{ "/" | relative_url }}">Home Page</a>
             </li>
-            {% comment %} {% if my_category %}
-                <li>
-                    <a href="{{my_category.directory_path | relative_url}}">{{my_category.directory_name}}</a>
-                </li>
-            {% endif %} {% endcomment %}
         </ul>
         <hr/>
         {{ content | toc_only }}
@@ -27,13 +22,13 @@
 
         <ul>
             <li>
-                <a href="{{ "/commissions.html" }}">Art Commissions</a>
+                <a href="{{ '/commissions' }}">Art Commissions</a>
             </li>
             <li>
                 <a href="{{site.repository}}">Git Repository</a>
             </li>
             <li>
-                <a href="/contact.html">Contact Form</a>
+                <a href="/contact">Contact Form</a>
             </li>
         </ul>
     </nav>

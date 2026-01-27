@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: contact_success.html
+permalink: contact_success
 sitemap: false
 ---
 
