@@ -2,14 +2,14 @@
 # so I use max resolution versions
 # I will need to eventually just resize them properly.
 emoji_thinking:
+  label: "Thinking Emoji"
   thumb: "/assets/gallery/commission/emoji/emoji_thinking.max.webp"
   max: "/assets/gallery/commission/emoji/emoji_thinking.max.webp"
-  description: "Thinking Ilyana"
 emoji_flustered:
+  label: "Flustered Emoji"
   thumb: "/assets/gallery/commission/emoji/emoji_flustered.max.webp"
   max: "/assets/gallery/commission/emoji/emoji_flustered.max.webp"
-  description: "Flustered Ilyana"
 emoji_excited:
+  label: "Excited Emoji"
   thumb: "/assets/gallery/commission/emoji/emoji_excited.max.webp"
   max: "/assets/gallery/commission/emoji/emoji_excited.max.webp"
-  description: "Excited Ilyana"

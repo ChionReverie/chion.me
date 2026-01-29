@@ -1,11 +1,14 @@
 cat:
   thumb: "/assets/gallery/frontpage/cat.thumb.webp"
   max: "/assets/gallery/frontpage/cat.max.webp"
+  alt: "Chibi illustration of a cat wearing a torn red bandana. The cat looks confused."
 emoji_ilyana_thinking:
   # Thumbnail version has rendering issues, 
   # so I had to use max size.
   thumb: "/assets/gallery/frontpage/emoji_ilyana_thinking.max.webp"
   max: "/assets/gallery/frontpage/emoji_ilyana_thinking.max.webp"
+  alt: "Chibi illustration of a Night Elf woman (Ilyana Eversky) with a curious expression."
 catform_plush:
   thumb: "/assets/gallery/frontpage/catform-plush.thumb.webp"
   max: "/assets/gallery/frontpage/catform-plush.max.webp"
+  alt: "Illustration of a purple plush cat, styled to look like a Kaldorei druid of the claw"

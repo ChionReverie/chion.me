@@ -3,12 +3,21 @@ a.call-to-action, .call-to-action {
     width: 15rem;
     background: var(--action-color);
     color: var(--main-bg);
+    border: 1px solid transparent;
     text-align: center;
     padding: 0.75rem;
     margin: auto;
     border-radius: 2rem;
 
-    --bs-btn-hover-border-color: var(--main-bg): 
+    --button-hover-color: var(--text-color);
+
+    transition: 0.25s;
+
+    &:hover:not(:disabled) {
+        color: var(--button-hover-color);
+        border-color: var(--button-hover-color);
+        background: transparent;
+    }
 }
 
 .btn-container:has(.kofi-button) {

@@ -1,0 +1,32 @@
+.storyblock {
+  --border-color: var(--sidebar-bg);
+  border: 2pt solid var(--border-color);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  margin-bottom: 1rem;
+
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  hr {
+    border-color: var(--border-color);
+  }
+}
+
+.block-heading {
+  padding: 1rem;
+  background-color: var(--border-color);
+}
+
+.quoteblock {
+  font-family: "kalam", cursive;
+  font-weight: normal;
+  font-style: normal;
+
+  p {
+    margin: 1rem;
+  }
+}

@@ -22,7 +22,7 @@ This is the style I developed to draw plushies for my WoW character, Ilyana Ever
 * +50% per color variant
 * If a sketch involves multiple critters, each critter is priced separately
 
-{% include gallery.html gallery='plush_commissions' name="Plush" %}
+{% include gallery.html gallery='plush_commissions' name="plush" title='Critter Sketch' %}
 
 ---
 
@@ -34,7 +34,7 @@ Cute emojis for your discord server!
 
 **Note**: For Emoji characters, you *must* provide a visual reference. Even just a screenshot of a character model in an MMO is enough.
 
-{% include gallery.html gallery='emoji_commissions' name="Emojis" %}
+{% include gallery.html gallery='emoji_commissions' name="emojis" title='Chibi Emojis' %}
 
 ---
 

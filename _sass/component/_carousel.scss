@@ -1,0 +1,103 @@
+.carousel-slider {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    figure {
+        position: absolute;
+        flex: 1;
+    }
+    > .anim-spawnLeft {
+        animation: slideFromLeft 0.2s linear;
+    }
+    > .anim-spawnRight {
+        animation: slideFromRight 0.2s linear;
+    }
+    > .anim-vanishLeft {
+        animation: slideAwayLeft 0.2s linear;
+    }
+    > .anim-vanishRight {
+        animation: slideAwayRight 0.2s linear;
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+@keyframes slideAwayLeft {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+@keyframes slideFromRight {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+@keyframes slideAwayRight {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+.button-close-dialog {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    position: absolute;
+    top: -0.375rem;
+    right: -0.375rem;
+    line-height: 0.9;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--modal-bg);
+    user-select: none;
+}
+
+.button-carousel-previous, .button-carousel-next {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    user-select: none;
+    
+    width: 4rem;
+    height: calc(100% - 4rem);
+    line-height: 1.5rem;
+    vertical-align: middle;
+
+    font-size: 6rem;
+
+    z-index: 10;
+}
+.button-carousel-previous {
+    top: 50%;
+    left: -1rem;
+    transform: translate(0, -50%);
+}
+
+.button-carousel-next {
+    top: 50%;
+    right: -1rem;
+    transform: translate(0, -50%);
+}

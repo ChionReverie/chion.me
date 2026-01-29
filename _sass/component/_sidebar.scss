@@ -3,7 +3,7 @@
 @use "variables" as vars;
 
 .page-sidebar {
-  color: var(--text-color);
+  --text-color: var(--sidebar-link-color);
   background-color: var(--sidebar-bg);
 }
 
@@ -25,7 +25,12 @@
 }
 
 .sidebar-content > ul {
-  list-style: none;
+  --ul-bullet-1: none;
+  --ul-bullet-2: none;
+  --ul-bullet-3: none;
+  --ul-bullet-4: none;
+  --ul-bullet-5: none;
+  --ul-bullet-6: none;
   padding-inline-start: 0;
   
   & > li > a {

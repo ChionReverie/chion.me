@@ -1,28 +1,28 @@
 portrait_celryn:
+  label: "Portrait by Celryn"
   thumb: "/assets/gallery/eversky/portrait_celryn.thumb.webp"
   max: "/assets/gallery/eversky/portrait_celryn.max.webp"
-  description: "Portrait by Celryn"
 headshot:
+  label: "In-Game Model, Headshot"
   thumb: "/assets/gallery/eversky/headshot.thumb.webp"
   max: "/assets/gallery/eversky/headshot.max.webp"
-  description: "In-Game Model, Headshot"
 profile:
+  label: "In-Game Model, Profile"
   thumb: "/assets/gallery/eversky/profile.thumb.webp"
   max: "/assets/gallery/eversky/profile.max.webp"
-  description: "In-Game Model, Profile"
 behind:
+  label: "In-Game Model, Behind"
   thumb: "/assets/gallery/eversky/behind.thumb.webp"
   max: "/assets/gallery/eversky/behind.max.webp"
-  description: "In-Game Model, Behind"
 emoji_thinking:
+  label: "Thinking Emoji"
   thumb: "/assets/gallery/eversky/emoji_thinking.thumb.webp"
   max: "/assets/gallery/eversky/emoji_thinking.max.webp"
-  description: "Thinking Emoji"
 emoji_flustered:
+  label: "Flustered Emoji"
   thumb: "/assets/gallery/eversky/emoji_flustered.thumb.webp"
   max: "/assets/gallery/eversky/emoji_flustered.max.webp"
-  description: "Flustered Emoji"
 emoji_excited:
+  label: "Excited Emoji"
   thumb: "/assets/gallery/eversky/emoji_excited.thumb.webp"
   max: "/assets/gallery/eversky/emoji_excited.max.webp"
-  description: "Excited Emoji"

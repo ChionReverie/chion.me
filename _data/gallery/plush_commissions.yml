@@ -1,12 +1,12 @@
 cat:
+  label: Curious Cat
   thumb: "/assets/gallery/commission/critter/cat.thumb.webp"
   max: "/assets/gallery/commission/critter/cat.max.webp"
-  description: Curious Cat
 catform:
+  label: Plush Druid of the Claw
   thumb: "/assets/gallery/commission/critter/catform-plush.thumb.webp"
   max: "/assets/gallery/commission/critter/catform-plush.max.webp"
-  description: Plush Druid of the Claw
 horse:
+  label: Plush Horse
   thumb: "/assets/gallery/commission/critter/horse.thumb.webp"
   max: "/assets/gallery/commission/critter/horse.max.webp"
-  description: Plush Horse

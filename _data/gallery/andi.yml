@@ -1,12 +1,12 @@
 reference:
+  label: "Adventurer Refsheet (by Chion)"
   thumb: "/assets/gallery/andi/Andi-Miller-2.thumb.webp"
   max: "/assets/gallery/andi/Andi-Miller-2.max.webp"
-  description: "Adventurer Refsheet (by Chion)"
 lofi:
+  label: "Lo-Fi Girl Style Wallpaper (by Chion)"
   thumb: "/assets/gallery/andi/Andi-Lofi.thumb.webp"
   max: "/assets/gallery/andi/Andi-Lofi.max.webp"
-  description: "Lo-Fi Girl Style Wallpaper (by Chion)"
 commission:
+  label: "Gift commission (by Kirekanary)"
   thumb: "/assets/gallery/andi/Andi_comm.thumb.webp"
   max: "/assets/gallery/andi/Andi_comm.max.webp"
-  description: "Gift commission (by Kirekanary)"

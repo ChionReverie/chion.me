@@ -20,12 +20,12 @@ I have created profiles for some of my roleplay characters. Click on a thumbnail
 ## Art Work
 
 <div class="strict-centered-text">
-    <p data-insert="commission-status" data-default-text="I do commissions!">
-        <noscript>I do commissions!</noscript>
+    <p data-insert="commission-status" data-default-text="I take commissions!">
+        <noscript>I take commissions!</noscript>
     </p>
 </div>
 
-{% include gallery.html gallery='frontpage' nohint=true %}
+{% include gallery.html gallery='frontpage' name='front' nohint=true title="Art Examples" %}
 
 [See my options?](/commissions){:.call-to-action.btn}
 

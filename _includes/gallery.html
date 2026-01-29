@@ -1,48 +1,22 @@
 {% assign gallery_set = site.data.gallery[include.gallery] %}
 {% if include.nohint == nil %}
-<p class="gallery_instructions">Select a thumbnail for a full-size version.</p>
+<p class="gallery_instructions js-only">Select a thumbnail for a full-size version.</p>
 {% endif %}
-<div class="gallery row" data-bs-toggle="modal" data-bs-target="#galleryModal{{include.name}}">
+<div class="gallery" data-type="gallery" data-id="gallery-{{include.name}}" data-title="{{include.title}}" data-carousel-id="carousel-{{include.name}}">
 {% for entry in gallery_set %}
-    <figure class="gallery_entry">
-        <img src="{{entry[1].thumb}}" data-bs-target="#carouselGallery" data-bs-slide-to="{{forloop.index0}}">
-        {% if entry[1].description %}
-            <figcaption>{{entry[1].description}}</figcaption>
+    <figure class="gallery_entry" data-type="gallery-entry" data-effect="open-carousel" data-id="{{forloop.index0}}" data-alt-text="{{entry[1].alt}}" data-title="{{entry[1].label}}" data-image-src="{{entry[1].max}}" data-thumbnail-src="{{entry[1].thumb}}">
+        <img src="{{entry[1].thumb}}" alt="{{entry[1].alt}}">
+        {% if entry[1].label %}
+            <figcaption>{{entry[1].label}}</figcaption>
         {% endif %}
     </figure>
 {% endfor %}
 </div>
 
-<div class="modal fade" id="galleryModal{{include.name}}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div id="carouselGallery{{include.name}}" class="carousel slide">
-                    <div class="carousel-inner">
-                        {% assign active_class = " active" %}
-                        {% for entry in gallery_set %}
-                            <div class="carousel-item {{active_class}}">
-                                <img class="d-block w-100" src="{{entry[1].max}}">
-                            </div>
-                            {% assign active_class = "" %}
-                        {% endfor %}
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery{{include.name}}" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery{{include.name}}" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
+<dialog data-type="carousel" data-id="carousel-{{include.name}}" data-source-gallery="gallery-{{include.name}}">
+    <button aria-label="close" class="button-close-dialog" data-effect="close-dialog" autofocus>&times;</button>
+    <button aria-label="previous" class="button-carousel-previous" data-effect="carousel-previous">&lsaquo;</button>
+    <button aria-label="next" class="button-carousel-next" data-effect="carousel-next">&rsaquo;</button>
+    <div class="dialog-container">
     </div>
-</div>
+</dialog>

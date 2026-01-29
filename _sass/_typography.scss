@@ -5,9 +5,10 @@ body {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  line-height: 1.5;
 }
 
-.sr-only {
+.reader-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -19,42 +20,100 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.35rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
 }
 
-.page-main a {
+p {
+  margin-bottom: 1rem;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 800;
+}
+
+hr {
+  border-bottom: 1px solid var(--text-color);
+  margin-top: calc(1rem - 0.5px);
+  margin-bottom: calc(1rem - 0.5px);
+  opacity: 0.5;
+}
+
+a {
   color: var(--link-color);
   text-decoration: none;
 }
 
-
-.storyblock {
-  border: 2pt solid var(--sidebar-bg);
-  border-radius: 1rem;
-  overflow: hidden;
-
-  margin-bottom: 1rem;
-
-  p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+:root {
+  --ul-bullet-1: disc;
+  --ul-bullet-2: circle;
+  --ul-bullet-3: square;
+  --ul-bullet-4: disc;
+  --ul-bullet-5: circle;
+  --ul-bullet-6: square;
 }
 
-.block-heading {
-  // border-bottom: 1px solid var(--text-color);
-  padding: 1rem;
-  background-color: var(--sidebar-bg);
+ul {
+  padding-inline-start: 1.5rem;
 }
 
-.quoteblock {
-  font-family: "kalam", cursive;
-  font-weight: normal;
-  font-style: normal;
+ul li {
+  list-style: var(--ul-bullet-1);
+}
+ul li li {
+  list-style: var(--ul-bullet-2);
+}
+ul li li li {
+  list-style: var(--ul-bullet-3);
+}
+ul li li li li {
+  list-style: var(--ul-bullet-4);
+}
+ul li li li li li {
+  list-style: var(--ul-bullet-5);
+}
+ul li li li li li li {
+  list-style: var(--ul-bullet-6);
+}
 
-  // border: 2px solid #241b37;
-  p {
-    margin: 1rem;
+@media (scripting: none) {
+  .js-only {
+    display: none;
   }
+}
+.warning {
+  padding: 0.75rem 1rem;
+  border: 0.25rem solid rgb(197, 167, 0);
+  background: rgb(0, 0, 0);
+  color: rgb(236, 232, 226);
+}
+
+
+.center-text {
+  text-align: center;
 }
 
 .strict-centered-text {

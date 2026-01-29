@@ -41,7 +41,7 @@ Wears loose robes and dresses over tighter shorts and undershirt, which has the 
 
 ## Gallery
 
-{% include gallery.html gallery='eversky' %}
+{% include gallery.html gallery='eversky' name='eversky' title="Art of Ilyana" %}
 
 ## Evergreen Hooks
 

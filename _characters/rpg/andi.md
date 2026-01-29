@@ -66,7 +66,7 @@ But then, on Andi's 18th birthday, a mysterious package arrived. A strange magic
 
 ## Gallery
 
-{% include gallery.html gallery='andi' %}
+{% include gallery.html gallery='andi' name='andi' title="Art of Andi" %}
 
 ## Trivia
 
@@ -110,7 +110,7 @@ She packed up her bags, bid farewell to the men who raised her, and made her way
 
 ## Relationships
 
-### Vargu & Jaydenm Miller - Adoptive Fathers
+### Vargu & Jayden Miller - Adoptive Fathers
 
 Vargu is an Orcish smith originally from an outlander tribe, who once manufactured weapons of war. Nowadays, he just wants to live in peace, and crafts tools for the people of Melaney.
 

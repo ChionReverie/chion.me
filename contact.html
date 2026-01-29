@@ -22,16 +22,20 @@ toc: true
 
 {{captured_markdown | markdownify}}
 
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<noscript>
+  <p class="warning">
+    Javscript is disabled. Please enable Javascript to use the contact form.
+  </p>
+</noscript>
 
-<form action="https://chion.me/api/mail" method="post" style="display: grid; gap: 1rem">
+<form action="https://chion.me/api/mail" method="post" class="js-only">
   <div class="row">
-    <div class="form-group col">
+    <div class="form-group">
       <label for="name">Your Name</label>
       <input type="text" class="form-control" name="name" id="name" required />
     </div>
           
-    <div class="form-group col">
+    <div class="form-group">
       <label for="pronouns">Your Pronouns</label>
       <input type="text" class="form-control" name="pronouns" id="pronouns" required />
     </div>
@@ -55,19 +59,25 @@ toc: true
   </div>
 
   <!-- Cloudflare Turnstile -->
-  <div class="cf-turnstile" data-sitekey="{{site.env.turnstile}}" data-callback="enableSubmit"></div>
+   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <div class="cf-turnstile" data-sitekey="{{site.env.turnstile}}" data-callback="enableSubmit">
+  </div>
 
-  <button type="submit" id="submit-button" class="btn call-to-action" disabled>Send!</button>
+  <button type="submit" id="submit-button" class="call-to-action" disabled>Send!</button>
 </form>
 
 <script>
   function enableSubmit() {
-    document.getElementById("submit-button").disabled = false;
+    let button = document.getElementById("submit-button");
+    button.disabled = false;
   }
 </script>
 
 <hr>
 
-<p style="text-align: center">
+<p class="center-text js-only">
   <a href="/">Return home</a> or <a href="javascript:history.back()">go back</a>?
 </p>
+<noscript>
+  <p class="center-text"> <a href="/">Return home</a> </p>
+</noscript>
