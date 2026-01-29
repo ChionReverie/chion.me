@@ -3,14 +3,15 @@
 @use "typography";
 @use "layout";
 @use "article";
-@use "component/sidebar";
-@use "component/gallery";
 @use "component/block";
-@use "component/list_list";
-@use "component/field_list";
 @use "component/call_to_action";
-@use "component/theme_switcher";
-@use "component/form";
+@use "component/carousel";
 @use "component/dialog";
+@use "component/field_list";
+@use "component/form";
+@use "component/gallery";
+@use "component/list_list";
+@use "component/sidebar";
+@use "component/theme_switcher";
 
 @use "theme/theme";
